@@ -5,7 +5,7 @@ const OtherProyects = () => {
   return (
     <div className='main-container'>
         <div className="title-section">
-          <span>03.</span>   Other Proyects
+          <span>03.</span>   Otros Proyectos
         </div>
         <div className='otherProyects-container'>
 

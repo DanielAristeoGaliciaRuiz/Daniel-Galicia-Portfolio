@@ -5,7 +5,7 @@ const MainProyects = () => {
   return (
     <div className='mainProyects-container'>
        <div className='title-container'> 
-       <p className='title'> <span>02.</span> Main Proyects </p> 
+       <p className='title'> <span>02.</span> Proyectos Principales </p> 
         </div> 
 
         <div className='proyect-container'>
