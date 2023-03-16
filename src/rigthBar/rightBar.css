@@ -1,0 +1,46 @@
+.leftbar-container{
+    width: 150px;
+    position: sticky;
+    top: 70px;
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+}
+
+.icon{
+    font-size: 30px;
+    color:  #ccd6f6;
+    position: sticky;
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
+}
+
+.icon:hover{
+    transform: translate(0px, -5px);
+    color: #7dfcdb;
+}
+
+hr{
+    height:15vh;
+    border: 1px solid  #ccd6f6;
+    position: sticky;
+   }
+
+   @media (max-width: 730px) {
+    
+    .leftbar-container{
+        display: none;
+    }
+    
+    .icon{
+        display: none;
+    }
+    
+    hr{
+        display: none;
+       }
+    
+  }
