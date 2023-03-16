@@ -31,7 +31,7 @@ const MainProyects = () => {
                 </a>
 
                 <a href="https://e-commerce-reactjs-redux.netlify.app/" target='_blank'>
-                <i class='bx bx-link-external'></i>  
+                <i className='bx bx-link-external'></i>  
                 </a>
                 </div>
             </div>
@@ -60,7 +60,7 @@ const MainProyects = () => {
                 </a>
 
                 <a href="https://weather-app-with-openweatherapi.netlify.app" target='_blank'>
-                <i class='bx bx-link-external'></i>  
+                <i className='bx bx-link-external'></i>  
                 </a> 
                 </div>
             </div>
@@ -87,7 +87,7 @@ const MainProyects = () => {
                 </a>
 
                 <a href="https://crud-user-react.netlify.app" target='_blank'>
-                <i class='bx bx-link-external'></i>  
+                <i className='bx bx-link-external'></i>  
                 </a>  
                 </div>
             </div>
@@ -114,7 +114,7 @@ const MainProyects = () => {
                 </a>
 
                 <a href="https://generatesrandomquote.netlify.app" target='_blank'>
-                <i class='bx bx-link-external'></i>  
+                <i className='bx bx-link-external'></i>  
                 </a>   
                 </div>
             </div>

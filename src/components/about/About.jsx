@@ -46,15 +46,15 @@ const About = () => {
           <div className='tecnologiesExperiences'>
               
             <div className="left-tecnologies">
-            <p> <span><i class='bx bxs-chevrons-right'></i></span> JavaScrip (ES6+)</p>
-            <p> <span><i class='bx bxs-chevrons-right'></i></span> ReactJs</p>
-            <p> <span><i class='bx bxs-chevrons-right'></i></span> CSS </p>
+            <p> <span><i className='bx bxs-chevrons-right'></i></span> JavaScrip (ES6+)</p>
+            <p> <span><i className='bx bxs-chevrons-right'></i></span> ReactJs</p>
+            <p> <span><i className='bx bxs-chevrons-right'></i></span> CSS </p>
             </div>
 
             <div className="right-tecnologies">
-            <p> <span><i class='bx bxs-chevrons-right'></i></span> NodeJS</p>
-            <p> <span><i class='bx bxs-chevrons-right'></i></span> Postgres</p>
-            <p> <span><i class='bx bxs-chevrons-right'></i></span> SQL </p>
+            <p> <span><i className='bx bxs-chevrons-right'></i></span> NodeJS</p>
+            <p> <span><i className='bx bxs-chevrons-right'></i></span> Postgres</p>
+            <p> <span><i className='bx bxs-chevrons-right'></i></span> SQL </p>
             </div>
           </div>
         </div>
