@@ -1,0 +1,43 @@
+.main-container-section{
+    width: 70vw;
+    margin-top: 80px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-title-container{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ccd6f6;
+}
+
+.infoContact-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph{
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    color: #8892b0;
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 1030px) {
+    .contact-title-container{
+        font-size: 25px;
+
+    }
+    .paragraph{
+        width: 90vw;
+        margin-bottom: 50px;
+    }
+
+  }

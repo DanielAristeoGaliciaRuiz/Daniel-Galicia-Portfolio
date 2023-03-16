@@ -1,0 +1,115 @@
+.main-container{
+    max-width: 70vw;
+    position: relative;
+    
+}
+
+.title-section{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ccd6f6;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.otherProyects-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.individual-proyect-container{
+    width: 350px;
+    height: 350px;
+    background-color: #112240;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
+}
+.individual-proyect-container:hover{
+    transform: translate(0px,-10px);
+}
+
+.title-proyect-container{
+    font-size: 25px;
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #7dfcdb;
+    font-weight: bold;
+    width: 90%;
+}
+
+
+.description-proyect-container{
+    width: 90%;
+    text-align: start;
+    color: #8892b0;
+    margin-left: 10px;
+    padding: 10px;
+}
+.tecnnologys-used-container{
+    width: 90%;
+    height: 90px;
+    padding-right: 10px;
+    display: flex;
+    font-size: 14px;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    color: #8892b0;
+    flex-wrap: wrap;
+}
+.tecnnologys-used-container>p{
+    
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.bottom-icons-container{
+    display: flex;
+    font-size: 30px;
+    margin-left: 10px;
+    color: #ccd6f6;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    gap: 20px;
+}
+
+@media (max-width: 1030px) {
+    .main-container{
+        margin-top: 20px;
+    }
+
+    .individual-proyect-container{
+        margin-top: 10px;
+    }
+    .title-section{
+        margin-bottom: 50px;
+    }
+
+  }
+
+  @media (max-width: 730px) {
+    .main-container{
+        max-width: 90vw;
+        margin-top: 20px;
+    }
+    .title-section{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .individual-proyect-container{
+        margin-top: 10px;
+        width: 325px;
+        height: 325px;
+    }
+
+  }
