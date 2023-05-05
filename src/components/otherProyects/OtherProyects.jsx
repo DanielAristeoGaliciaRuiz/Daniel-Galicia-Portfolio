@@ -1,15 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './otherProyects.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const OtherProyects = () => {
+    useEffect(() => {
+        Aos.init({duration:2000})
+      }, [])
   return (
-    <div className='main-container'>
+    <div className='main-container' name='otherProyects'>
         <div className="title-section">
           <span>03.</span>   Otros Proyectos
         </div>
         <div className='otherProyects-container'>
 
-        <div className="individual-proyect-container">
+        <div data-aos='fade-up' className="individual-proyect-container">
             <div className="title-proyect-container">
                 Chat-Api 
             </div>

@@ -96,6 +96,7 @@
     font-size: 28px;
     text-align: end;
     margin-right: 15px;
+    margin-bottom: 100px;
 }
 
 .name-proyectI{
@@ -111,7 +112,7 @@
     color:#ccd6f6;
     padding: 10px;
     text-align: end;
-    margin-top: 20px;
+    margin-top: 30px;
     background-color: #112240;
     width: 500px;
     padding: 15px;
@@ -127,7 +128,7 @@
     color:#ccd6f6;
     padding: 5px;
     text-align: start;
-    margin-top: 20px;
+    margin-top: 60px;
     background-color: #112240;
     width: 500px;
     padding: 15px;
@@ -158,7 +159,7 @@
     align-items: center;
     gap: 20px;
     position: absolute;
-    bottom: 120px;
+    bottom: 110px;
     left: 0px;
 }
 .icons-container{

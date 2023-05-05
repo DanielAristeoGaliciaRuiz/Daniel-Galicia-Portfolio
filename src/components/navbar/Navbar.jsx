@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './navbar.css'
+import {Link} from 'react-scroll'
 import cv from '../../assets/DanielGaliciaCV.pdf'
 
 const Navbar = () => {
@@ -23,10 +24,15 @@ const Navbar = () => {
     <div className='container'>
       
       <div className='deskView-container'>
-        <div className='sections'> <span>01.</span> Sobre Mi</div>
-        <div className='sections'> <span>02.</span> Proyectos Principales</div>
-        <div className='sections'> <span>03.</span> Otros Proyectos</div>
-        <div className='sections'> <span>04.</span> Contacto</div>
+          <Link to='about' smooth={true} duration={500}> 
+        <div className='sections'>
+          <span>01.</span> Sobre Mi 
+          </div>
+          </Link>
+
+        <Link to='mainProyects' smooth={true} duration={500}> <div className='sections'> <span>02.</span> Proyectos Principales</div></Link>
+       <Link to='otherProyects' smooth={true} duration={500}> <div className='sections'>  <span>03.</span> Otros Proyectos</div></Link>
+        <Link to='contact' smooth={true} duration={1000}><div className='sections'> <span>04.</span> Contacto </div></Link>
          <a href= {cv} download><button className='cv-button'>Descargar CV</button></a> 
       </div>
 
@@ -38,10 +44,15 @@ const Navbar = () => {
 
 
       <div className={menuClass}>
-      <div className='sections'> <span>01.</span> Sobre Mi</div>
-        <div className='sections'> <span>02.</span> Proyectos Principales</div>
-        <div className='sections'> <span>03.</span> Otros Proyectos</div>
-        <div className='sections'> <span>04.</span> Contacto</div>
+      <Link to='about' smooth={true} duration={500}> 
+        <div className='sections'>
+          <span>01.</span> Sobre Mi 
+          </div>
+          </Link>
+
+        <Link to='mainProyects' smooth={true} duration={500}> <div className='sections'> <span>02.</span> Proyectos Principales</div></Link>
+       <Link to='otherProyects' smooth={true} duration={500}> <div className='sections'>  <span>03.</span> Otros Proyectos</div></Link>
+        <Link to='contact' smooth={true} duration={1000}><div className='sections'> <span>04.</span> Contacto </div></Link>
         <button className='cv-button'>Descargar CV</button>
       </div>
 
