@@ -13,6 +13,31 @@ const MainProyects = () => {
        <p  className='title'> <span>02.</span> Proyectos Principales </p> 
         </div> 
 
+        <div className='proyect-containerI ' >
+            <div className='imgProyect-container cuatro'></div>
+            <div className='descrition-containerI '>
+                <div data-aos='fade-up' className='favorite-proyectsI '>Proyecto Favorito</div>
+                <div data-aos='fade-up' className='name-proyectI '>Web de agencia de viajes local</div>
+                <div data-aos='fade-up' className='description-proyectI  '>Primera versión de una página web enfocada en tours locales en el destino Huatulco Oaxaca México.</div>
+
+                <div className='tecnologys-usedI '>
+                    <p data-aos='fade-up'>JavaScript</p>
+                    <p data-aos='fade-up'>ReactJs</p>
+                    <p data-aos='fade-up'>CSS</p>
+                    <p data-aos='fade-up'></p>
+                </div>
+                
+                <div className='icons-containerI '>
+                <a data-aos='fade-up' href="https://github.com/DanielAristeoGaliciaRuiz/RodovrWeb" target='_blank'>
+                <i className='bx bxl-github'></i>
+                </a>
+
+                <a data-aos='fade-up' href="https://main--rodorvtouragency.netlify.app/" target='_blank'>
+                <i className='bx bx-link-external'></i>  
+                </a>   
+                </div>
+            </div>
+        </div>
         <div className='proyect-container'>
             <div className='imgProyect-container uno'>
                 
@@ -21,7 +46,7 @@ const MainProyects = () => {
                 <div data-aos='fade-up' className='favorite-proyects'>Proyecto Favorito</div>
                 <div data-aos='fade-up' className='name-proyect'> E-commerce</div>
                 <div data-aos='fade-up' className='description-proyect'>Aplicación creada utilizando una API de academlo.
-                 Para el manejo de estados  globales se utilizó Redux-toolkit y para el manejo de las rutas y rutas protegidas se utilizó React-outer-dom.   </div>
+                 Para el manejo de estados  globales se utilizó Redux-Toolkit y para el manejo de las rutas y rutas protegidas se utilizó React-Router-Dom.   </div>
 
                 <div className='tecnologys-used'>
                     <p data-aos='fade-up'>JavaScript</p>
@@ -77,7 +102,7 @@ const MainProyects = () => {
             <div className='descrition-container'>
                 <div data-aos='fade-up' className='favorite-proyects'>Proyecto Favorito</div>
                 <div data-aos='fade-up' className='name-proyect'> CRUD Users</div>
-                <div data-aos='fade-up' className='description-proyect'>Aplicación cuyo principar objetivo es realizar las acciones básicas de un CRUD. Realizando algunas modificaciones se puede adaptar para crear una to-do list.  </div>
+                <div data-aos='fade-up' className='description-proyect'>Aplicación cuyo principal objetivo es realizar las acciones básicas de un CRUD. Realizando algunas modificaciones se puede adaptar para crear una to-do list.  </div>
 
                 <div className='tecnologys-used'>
                     <p data-aos='fade-up'>JavaScript</p>
@@ -99,31 +124,6 @@ const MainProyects = () => {
         </div>
 
         
-        <div className='proyect-containerI ' >
-            <div className='imgProyect-container cuatro'></div>
-            <div className='descrition-containerI '>
-                <div data-aos='fade-up' className='favorite-proyectsI '>Proyecto Favorito</div>
-                <div data-aos='fade-up' className='name-proyectI '>Generador de  Citas</div>
-                <div data-aos='fade-up' className='description-proyectI  '>Aplicación que muestra una cita de un personaje célebre de la historia.</div>
-
-                <div className='tecnologys-usedI '>
-                    <p data-aos='fade-up'>JavaScript</p>
-                    <p data-aos='fade-up'>ReactJs</p>
-                    <p data-aos='fade-up'></p>
-                    <p data-aos='fade-up'></p>
-                </div>
-                
-                <div className='icons-containerI '>
-                <a data-aos='fade-up' href="https://github.com/DanielAristeoGaliciaRuiz/QuoteRandomGenerator" target='_blank'>
-                <i className='bx bxl-github'></i>
-                </a>
-
-                <a data-aos='fade-up' href="https://generatesrandomquote.netlify.app" target='_blank'>
-                <i className='bx bx-link-external'></i>  
-                </a>   
-                </div>
-            </div>
-        </div>
     </div>
   )
 }

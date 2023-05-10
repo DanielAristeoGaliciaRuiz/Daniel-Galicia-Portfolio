@@ -31,7 +31,7 @@ const About = () => {
         <div className='description-container'>
           <div data-aos='fade-up' className='mainDescription'>Soy Daniel Galicia, disfruto practicando y aprendiendo nuevas tecnologias enfocadas al desarrollo web.   </div>
           <div data-aos='fade-up' className='secondDescription'>
-            Mi primer acercamiento en el área fue del lado del backend, aprendí temas relacionados a bases de datos, iniciando con <span>Postgres</span> para el manejo de bases de datos <span>SQL</span> para luego introducirme a la creación de <span>APIS</span> utilizando <span>NodeJs</span> como entorno de desarrollo con librerías como: <span>Express</span>, <span>Passport</span>.         
+            Mi primer acercamiento en el área fue del lado del backend, aprendí temas relacionados a bases de datos, iniciando con <span>Postgres</span> para el manejo de bases de datos <span>SQL</span> para luego introducirme a la creación de <span>APIS</span> utilizando <span>NodeJs</span> como entorno de desarrollo con librerías como: <span>Express</span> y <span>Passport</span>.         
           </div>
 
           <div data-aos='fade-up' className='thirdDescription'>
