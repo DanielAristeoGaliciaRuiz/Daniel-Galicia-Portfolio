@@ -17,7 +17,7 @@ function App() {
    <div className='home'>
    <About/>
    <MainProyects/>
-   <OtherProyects/>
+   {/* <OtherProyects/> */}
    <Contact />
    </div>
    <RightBar/>
@@ -28,3 +28,4 @@ function App() {
 }
 
 export default App
+
